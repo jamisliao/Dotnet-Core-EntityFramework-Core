@@ -1,0 +1,8 @@
+*.suo
+bin
+obj
+TestResults
+Logs
+StyleCop.Cache
+.vs/
+

@@ -1,0 +1,71 @@
+IOException @2016/7/1 下午 01:18:13
+由於另一個處理序正在使用檔案 'c:\Users\biker\documents\visual studio 2015\Projects\Test\GCop.json'，所以無法存取該檔案。
+System.IO.IOException: 由於另一個處理序正在使用檔案 'c:\Users\biker\documents\visual studio 2015\Projects\Test\GCop.json'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   於 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   於 System.IO.File.WriteAllText(String path, String contents)
+   於 GCop.Core.Settings.Settings.Build()
+   於 GCop.Core.Settings.Settings.Initialize()
+   於 GCop.Core.Settings.Settings.Load()
+*******************************************************
+NullReferenceException @2016/7/1 下午 01:18:14
+並未將物件參考設定為物件的執行個體。
+System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   於 GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @2016/7/1 下午 01:18:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 01:28:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 01:38:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 01:48:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 01:58:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 02:08:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 02:18:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 02:28:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 02:38:18
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 02:48:28
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 02:51:31
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 03:20:08
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 03:30:08
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 03:40:08
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 03:50:08
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 04:00:08
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @2016/7/1 下午 04:10:08
+無法解析遠端名稱: 'gcop.watch.masoud.g.e'
+*******************************************************
